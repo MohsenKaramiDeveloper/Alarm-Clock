@@ -18,3 +18,8 @@ body{
     height: 100vh;
     background-color: #4a98f7;
 }
+
+.container{
+    width: 450px;
+    background-color: #fff;
+}
