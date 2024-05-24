@@ -8,11 +8,11 @@
     font-family: 'poppins', sans-serif;
 }
 
-/* body, .container{
+body, .container{
     display: flex;
     justify-content: center;
     align-items: center;
-} */
+}
 
 body{
     height: 100vh;
