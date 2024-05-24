@@ -20,6 +20,6 @@ body{
 }
 
 .container{
-    width: 450px;
+    /* width: 450px; */
     background-color: #fff;
 }
