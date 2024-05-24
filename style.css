@@ -50,3 +50,10 @@ body{
     padding: 5px 10px;
 }
 
+.content .controls select{
+    width: 100%;
+    outline: 0;
+    border: 0;
+    font-size: 16px;
+}
+
