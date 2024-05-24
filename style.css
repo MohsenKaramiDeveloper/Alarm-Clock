@@ -38,3 +38,8 @@ body{
     margin: 30px;
 }
 
+.container .content{
+    width: 100%;
+    justify-content: space-between;
+}
+
