@@ -22,4 +22,5 @@ body{
 .container{
     width: 450px;
     background-color: #fff;
+    border: solid 3px black;
 }
