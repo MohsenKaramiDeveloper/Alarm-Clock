@@ -12,7 +12,7 @@ img{
     width: 250px;
 }
 
-body, .container{
+body, .container, .content{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,3 +37,4 @@ body{
     font-size: 60px;
     margin: 30px;
 }
+
