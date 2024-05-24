@@ -57,3 +57,16 @@ body{
     font-size: 16px;
 }
 
+.container button{
+    width: 100%;
+    outline: 0;
+    border: 0;
+    background-color: #4a98f7;
+    color: #fff;
+    padding: 15px 0;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+
