@@ -8,6 +8,10 @@
     font-family: 'poppins', sans-serif;
 }
 
+img{
+    width: 250px;
+}
+
 body, .container{
     display: flex;
     justify-content: center;
