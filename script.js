@@ -9,4 +9,3 @@ for(let i = 23 ; i >=0 ; i--){
     selectMenu[0].firstChild.insertAdjacentHTML('afterend')
     console.log(option)
 }
-5
