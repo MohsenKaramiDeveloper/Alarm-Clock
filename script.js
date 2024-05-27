@@ -20,3 +20,5 @@ for(let i = 59 ; i >=0 ; i--){
     selectMenu[1].firstElementChild.insertAdjacentHTML('afterend', option)
     
 }
+
+// javascript part one
