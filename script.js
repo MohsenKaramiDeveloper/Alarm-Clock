@@ -1,6 +1,6 @@
 // start js
 
-const selectMenu = document.querySelectorAll('select');
+// const selectMenu = document.querySelectorAll('select');
 
 
 for(let i = 23 ; i >=0 ; i--){
