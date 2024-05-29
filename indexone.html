@@ -1,49 +1,32 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Animated Bar Chart Example</title>
-<style>
-    /* CSS for the bar chart */
-    .chart {
-        width: 300px;
-        margin: 20px auto;
-        border: 1px solid #ccc;
-        background-color: #f9f9f9;
-        padding: 10px;
-    }
-    .bar {
-        background-color: #4CAF50;
-        text-align: center;
-        color: white;
-        height: 30px;
-        line-height: 30px;
-        margin-bottom: 5px;
-        transition: width 1s ease; /* Add transition for smooth animation */
-    }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .box {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: relative;
+  animation: move 2s infinite alternate; /* Name of animation, duration, iteration count, direction */
+}
+
+@keyframes move {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 200px;
+  }
+}
+
+  </style>
+  <title>CSS Animation</title>
+  
 </head>
 <body>
-
-<div class="chart">
-    <div class="bar" style="width: 0%;"></div>
-    <div class="bar" style="width: 0%;"></div>
-    <div class="bar" style="width: 0%;"></div>
-    <div class="bar" style="width: 0%;"></div>
-</div>
-
-<script>
-    // JavaScript to trigger the animation
-    window.onload = function() {
-        setTimeout(function() {
-            document.querySelectorAll('.bar')[0].style.width = '80%';
-            document.querySelectorAll('.bar')[1].style.width = '50%';
-            document.querySelectorAll('.bar')[2].style.width = '65%';
-            document.querySelectorAll('.bar')[3].style.width = '90%';
-        }, 500); // Delay the animation for 500ms
-    };
-</script>
-
+  <div class="box"></div>
 </body>
 </html>
