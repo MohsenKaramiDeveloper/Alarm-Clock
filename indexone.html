@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Animated Bar Chart Example</title>
+<style>
+    /* CSS for the bar chart */
+    .chart {
+        width: 300px;
+        margin: 20px auto;
+        border: 1px solid #ccc;
+        background-color: #f9f9f9;
+        padding: 10px;
+    }
+    .bar {
+        background-color: #4CAF50;
+        text-align: center;
+        color: white;
+        height: 30px;
+        line-height: 30px;
+        margin-bottom: 5px;
+        transition: width 1s ease; /* Add transition for smooth animation */
+    }
+</style>
+</head>
+<body>
+
+<div class="chart">
+    <div class="bar" style="width: 0%;"></div>
+    <div class="bar" style="width: 0%;"></div>
+    <div class="bar" style="width: 0%;"></div>
+    <div class="bar" style="width: 0%;"></div>
+</div>
+
+<script>
+    // JavaScript to trigger the animation
+    window.onload = function() {
+        setTimeout(function() {
+            document.querySelectorAll('.bar')[0].style.width = '80%';
+            document.querySelectorAll('.bar')[1].style.width = '50%';
+            document.querySelectorAll('.bar')[2].style.width = '65%';
+            document.querySelectorAll('.bar')[3].style.width = '90%';
+        }, 500); // Delay the animation for 500ms
+    };
+</script>
+
+</body>
+</html>
