@@ -45,6 +45,6 @@ for(let i = 59 ; i >=0 ; i--){
     m = m < 10 ? '0' + m : m ;
     s = s < 10 ? '0' + s : s ;
 
-    console.log( `${h} : ${m}: ${s}` )
+    timeBox . innerHTML = `${h} : ${m}: ${s}` 
 
  }, 1000)
