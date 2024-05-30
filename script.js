@@ -1,6 +1,7 @@
 // start js
 
 const selectMenu = document.querySelectorAll('select');
+const timeBox = document.querySelector('.time');
 
 
 // hour
