@@ -35,8 +35,10 @@ for(let i = 59 ; i >=0 ; i--){
 
     // add minutes
 
-    
+
     let m = date.getMinutes();
+
+    // add seconds
     let s = date.getSeconds();
 
     h = h < 10 ? '0' + h : h ;
