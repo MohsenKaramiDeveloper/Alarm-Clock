@@ -46,8 +46,11 @@ for(let i = 59 ; i >=0 ; i--){
     h = h < 10 ? '0' + h : h ;
 
     // add 0 before minute
-    
+
     m = m < 10 ? '0' + m : m ;
+
+    // add 0 before second
+    
     s = s < 10 ? '0' + s : s ;
 
     timeBox . innerHTML = `${h} : ${m}: ${s}` 
