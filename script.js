@@ -97,6 +97,7 @@ for(let i = 59 ; i >=0 ; i--){
         alarmTime = ''
         ringtone.pause()
         alarmState = 'noset'
+        setAlarmBtn.innerHTML = 'Set Alarm'
     }
 
 
