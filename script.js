@@ -79,5 +79,6 @@ for(let i = 59 ; i >=0 ; i--){
         return alert('please inter correct time')
 
      }
+     content.classList.add('disable')
         
  })
