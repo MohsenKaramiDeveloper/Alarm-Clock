@@ -3,6 +3,7 @@
 const selectMenu = document.querySelectorAll('select');
 const timeBox = document.querySelector('.time');
 const setAlarmBtn = document.querySelector('button');
+let = alarmTime;
 
 
 // hour
@@ -63,6 +64,6 @@ for(let i = 59 ; i >=0 ; i--){
  // set button
 
  setAlarmBtn.addEventListener(`click`, () =>{
-    
-     
+
+     alarmTime `${selectMenu[0].value} :${selectMenu[1].value}`
  })
