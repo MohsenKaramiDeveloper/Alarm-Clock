@@ -2,6 +2,7 @@
 
 const selectMenu = document.querySelectorAll('select');
 const timeBox = document.querySelector('.time');
+const setAlarmBtn = document.querySelector('button');
 
 
 // hour
@@ -50,9 +51,13 @@ for(let i = 59 ; i >=0 ; i--){
     m = m < 10 ? '0' + m : m ;
 
     // add 0 before second
-    
+
     s = s < 10 ? '0' + s : s ;
 
     timeBox . innerHTML = `${h} : ${m}: ${s}` 
 
  }, 1000)
+
+
+
+ // set button
