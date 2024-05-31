@@ -3,8 +3,8 @@
 const selectMenu = document.querySelectorAll('select');
 const timeBox = document.querySelector('.time');
 const setAlarmBtn = document.querySelector('button');
-let = alarmTime;
-const ringTone = new Audio(`./files/ringtone.mp3`)
+let alarmTime;
+const ringtone = new Audio('./files/ringtone.mp3')
 
 
 // hour
@@ -56,12 +56,10 @@ for(let i = 59 ; i >=0 ; i--){
 
     s = s < 10 ? '0' + s : s ;  
 
-    timeBox . innerHTML = `${h} : ${m}: ${s}` 
-
-    if (
-        alarmTime == `${h} : ${m}:`){
-            ringTone.play();
-            ringTone.loop = true;
+    timeBox.innerHTML = `${h}:${m}:${s}`;
+     if (alarmTime == `${h}:${m}`){
+            ringtone.play();
+            ringtone.loop = true;
         }
     
 
@@ -71,11 +69,11 @@ for(let i = 59 ; i >=0 ; i--){
 
  // set button
 
- setAlarmBtn.addEventListener(`click`, () =>{
+ setAlarmBtn.addEventListener('click', ()=>{
 
-     alarmTime `${selectMenu[0].value} :${selectMenu[1].value}`
-     if(alarmTime.includes(`Hour`)||alarmTime.includes(`Minutes`)){
-        return alert(`please inter correct time`)
+     alarmTime = `${selectMenu[0].value}:${selectMenu[1].value}`
+     if(alarmTime.includes('Hour') || alarmTime.includes('Minutes')){
+        return alert('please inter correct time')
 
      }
         
