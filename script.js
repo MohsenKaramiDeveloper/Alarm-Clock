@@ -95,6 +95,9 @@ for(let i = 59 ; i >=0 ; i--){
     }
     else{
         content.classList.remove('disable')
+        alarmTime = ''
+        ringtone.pause()
+        alarmState = 'noset'
     }
 
 
