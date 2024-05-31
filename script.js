@@ -87,9 +87,15 @@ for(let i = 59 ; i >=0 ; i--){
  })
 
  function checkState(state){
-    if(state == 'noset')
+    if(state == 'noset'){
         content.classList.add('disable')
-    setAlarmBtn.innerHTML = 'Clear Alarm'
-    alarmState = 'set'
+        setAlarmBtn.innerHTML = 'Clear Alarm'
+        alarmState = 'set'
+
+    }
+    else{
+        content.classList.remove('disable')
+    }
+
 
  }
