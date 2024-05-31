@@ -47,12 +47,9 @@ for(let i = 59 ; i >=0 ; i--){
     // add seconds
     let s = date.getSeconds();
 
-    // add 0 before hour
+    
 
     h = h < 10 ? '0' + h : h ;
-
- 
-
     m = m < 10 ? '0' + m : m ;
     s = s < 10 ? '0' + s : s ;  
 
