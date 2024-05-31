@@ -35,12 +35,9 @@ for(let i = 59 ; i >=0 ; i--){
     // add new date
     let date = new Date();
 
-    // add hours
+    
 
     let h = date.getHours();
-
-   
-
 
     let m = date.getMinutes();
 
