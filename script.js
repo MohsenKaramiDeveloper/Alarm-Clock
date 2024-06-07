@@ -31,30 +31,19 @@ for(let i = 59 ; i >=0 ; i--){
     
     let date = new Date();
 
-    
-    
-
     let h = date.getHours();
-
-   
-
 
     let m = date.getMinutes();
 
-   
     let s = date.getSeconds();
-
-   
 
     h = h < 10 ? '0' + h : h ;
 
-   
-
     m = m < 10 ? '0' + m : m ;
 
- 
-
     s = s < 10 ? '0' + s : s ;  
+
+
 
     timeBox.innerHTML = `${h}:${m}:${s}`;
      if (alarmTime == `${h}:${m}`){
@@ -77,18 +66,15 @@ for(let i = 59 ; i >=0 ; i--){
 
      }
      checkState(alarmState)
+    })
 
-
-        
- })
 
  function checkState(state){
     if(state == 'noset'){
         content.classList.add('disable')
         setAlarmBtn.innerHTML = 'Clear Alarm'
         alarmState = 'set'
-
-    }
+     }
     else{
         content.classList.remove('disable')
         alarmTime = ''
@@ -96,12 +82,4 @@ for(let i = 59 ; i >=0 ; i--){
         alarmState = 'noset'
         setAlarmBtn.innerHTML = 'Set Alarm'
     }
-
-
- }
-
-
-
-
-
-}
+}}
