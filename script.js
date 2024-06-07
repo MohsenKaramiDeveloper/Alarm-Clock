@@ -44,7 +44,7 @@ for(let i = 59 ; i >=0 ; i--){
    
     let s = date.getSeconds();
 
-    // add 0 before hour
+   
 
     h = h < 10 ? '0' + h : h ;
 
