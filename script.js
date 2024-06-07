@@ -32,7 +32,7 @@ for(let i = 59 ; i >=0 ; i--){
 
 
  setInterval(() =>{
-    // add new date
+    
     let date = new Date();
 
     // add hours
