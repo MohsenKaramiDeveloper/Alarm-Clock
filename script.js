@@ -48,7 +48,7 @@ for(let i = 59 ; i >=0 ; i--){
 
     h = h < 10 ? '0' + h : h ;
 
-    // add 0 before minute
+   
 
     m = m < 10 ? '0' + m : m ;
 
