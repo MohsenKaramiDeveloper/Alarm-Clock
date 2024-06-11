@@ -35,7 +35,7 @@ for(let i = 59 ; i >=0 ; i--){
 
     let m = date.getMinutes();
 
-    // let s = date.getSeconds();
+    let s = date.getSeconds();
 
     h = h < 10 ? '0' + h : h ;
 
