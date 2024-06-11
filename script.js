@@ -1,6 +1,6 @@
 // start js
 
-// const selectMenu = document.querySelectorAll('select');
+const selectMenu = document.querySelectorAll('select');
 const timeBox = document.querySelector('.time');
 const setAlarmBtn = document.querySelector('button');
 let alarmTime , alarmState = 'noset';
