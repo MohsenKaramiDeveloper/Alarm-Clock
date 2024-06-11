@@ -29,7 +29,7 @@ for(let i = 59 ; i >=0 ; i--){
 
  setInterval(() =>{
     
-    let date = new Date();
+    // let date = new Date();
 
     let h = date.getHours();
 
