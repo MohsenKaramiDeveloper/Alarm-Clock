@@ -8,9 +8,9 @@
     font-family: 'poppins', sans-serif;
 }
 
-/* img{
+img{
     width: 300px;
-} */
+}
 
 body, .container, .content{
     display: flex;
